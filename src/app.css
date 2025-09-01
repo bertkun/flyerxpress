@@ -1,0 +1,27 @@
+function App() {
+  return (
+    <div>
+      {/* Header */}
+      <header style={{ padding: '1rem', background: '#1a1a1a', color: '#fff', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <h1>FlyerXpress Zambia</h1>
+        <nav>
+          <a href="#" style={{ marginRight: '1rem', color: '#fff', textDecoration: 'none' }}>Home</a>
+          <a href="#" style={{ color: '#fff', textDecoration: 'none' }}>Login</a>
+        </nav>
+      </header>
+
+      {/* Hero Section */}
+      <section style={{ padding: '4rem', textAlign: 'center', background: '#f4f4f4' }}>
+        <h2>Design it. Promote it. Sell it — safely, nationwide.</h2>
+        <p>
+          Create stunning flyers, promote your events, and sell tickets with built‑in fraud prevention.
+        </p>
+        <button style={{ padding: '0.75rem 1.5rem', fontSize: '1rem', marginTop: '1rem', background: '#1a1a1a', color: '#fff', border: 'none', cursor: 'pointer' }}>
+          Get Started
+        </button>
+      </section>
+    </div>
+  );
+}
+
+export default App;
